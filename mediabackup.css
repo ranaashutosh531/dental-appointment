@@ -1,0 +1,113 @@
+
+@media screen and (max-width:991px){
+    *{
+        /* overflow-x: hidden; */
+        /* font-size: 65%; */
+        max-width: 100vw;
+    }
+    .container{
+        /* min-height:990px; */
+    }
+        .nav-toggle{
+        border: .1rem solid red;
+        background-color: rgb(106, 38, 38);
+        display: block;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1rem;
+        padding: 0;
+        max-width: 100%;
+        border: .1rem solid rgb(0, 0, 0);
+        background-color:#134486;
+        display: block;
+        justify-content: center;
+        margin: 1rem;
+        width: 70px;
+        height: 70px;
+        padding-right: 2px;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .navbar li{
+        gap: 0rem;
+    }
+    .navbar{
+        /* padding-top: -1rem; */
+        height: 75vh;
+        gap: 2vh;
+        max-width:100%;
+        text-align: center;
+        justify-content: center;
+        background-color: #134486;
+    align-items: normal;
+        position: absolute;
+        top:19.5vh;
+        left:-120%;
+        display: flex;
+        flex-direction: column;
+        /* transition: 0.2s ease-in-out; */
+        padding-block: 20px;
+    }
+    .active{
+        /* position: fixed; */
+        left:0;
+        color: aliceblue;
+        /* transition: 0.2s ease-in-out; */
+    }
+    /* .links{
+        gap: 1rem;
+        color: aliceblue;
+    } */
+    .section1{
+        height: 80vw;
+    }
+    .right form{
+        flex: none;
+    }
+    .main{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .right{
+        height: 
+        60vw;
+    }
+    .section2{
+        max-width: 100%;
+    }
+    .box{
+        width: 30%;
+    }
+    footer{
+        width:800vw;
+        height: 20vh;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .credits{
+        position: relative;
+        bottom: 10vh;
+        /* border: 3rem solid red; */
+    
+    }
+    #p{
+        position: relative;
+        top:5vh;
+        font-size: 2rem;
+        /* justify-content: center;
+        text-align: center; */
+    left: 1%;
+    padding: 2rem;
+    }
+    }
+    @media screen (max-width:479px){
+        p{
+            font-size:1rem;
+        }
+        h1{
+            
+        }
+    }
+    
